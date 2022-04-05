@@ -13,8 +13,6 @@ public class Worker {
 	
 	private Department department;
 	private List <HourContract> contracts = new ArrayList<>();
-	
-
 
 	public Worker(String name, WorkerLevel level, Double baseSalary, Department department) {
 		this.name = name;
